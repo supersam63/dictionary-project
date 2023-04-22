@@ -3,6 +3,7 @@ import axios from "axios";
 import "./Dictionary.css";
 import Results from "./Results";
 import Photos from "./Photos";
+import { ThreeDots } from "react-loader-spinner";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -64,6 +65,17 @@ export default function Dictionary(props) {
     );
   } else {
     load();
-    return "Loading";
+    return (
+      <ThreeDots
+        height="80"
+        width="1500"
+        radius="100"
+        color="#14BAC3"
+        ariaLabel="three-dots-loading"
+        wrapperStyle={{}}
+        wrapperClassName=""
+        visible={true}
+      />
+    );
   }
 }
