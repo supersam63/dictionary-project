@@ -1,4 +1,4 @@
-import logo from "./samlogo.png";
+import logo from "./dictionarylogo.avif";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -13,7 +13,19 @@ export default function App() {
           <Dictionary defaultKeyword="hello" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Samantha</small>
+          <a
+            href="https://github.com/supersam63/weather-react"
+            target="_blank"
+            rel="noreferrer">
+            Open-source code
+          </a>
+          , by{" "}
+          <a
+            href="https://samantha-portfolio-e9d0c1.netlify.app"
+            target="_blank"
+            rel="noreferrer">
+            Samantha Vellinga
+          </a>
         </footer>
       </div>
     </div>

@@ -1,3 +1,8 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 body {
   background: #f9e8ec;
 }
@@ -6,7 +11,7 @@ body {
 }
 
 .App-logo {
-  max-width: 200px;
+  max-width: 400px;
   display: block;
   margin: 0 auto;
 }
