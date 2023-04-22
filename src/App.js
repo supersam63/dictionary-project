@@ -14,7 +14,7 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <a
-            href="https://github.com/supersam63/weather-react"
+            href="https://github.com/supersam63/dictionary-project"
             target="_blank"
             rel="noreferrer">
             Open-source code
