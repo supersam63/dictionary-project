@@ -3,7 +3,7 @@ import Meaning from "./Meaning";
 import "./Results.css";
 
 export default function Results(props) {
-  if (props.results) {
+  if (props.results && props.results.status !== "not_found") {
     return (
       <div className="Results">
         <section>
@@ -21,6 +21,6 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return false;
+    return null;
   }
 }
